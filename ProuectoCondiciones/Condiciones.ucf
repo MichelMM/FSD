@@ -1,0 +1,34 @@
+NET "Trans[0]" LOC = "F12"; 	# Transistor 0, el de la derecha
+NET "Trans[1]" LOC = "J12"; 	# Transistor 1
+NET "Trans[2]" LOC = "M13"; 	# Transistor 2
+NET "Trans[3]" LOC = "K14"; 	# Transistor 3, el de la izquierda
+
+# Pin assignment for Segments. Para encenderlo con un 0
+# NOTA: Como casi siempre el nombre de las variables 
+# Corresponde al de los segmentos
+NET "seg[0]" LOC = "L14";	# segmento a
+NET "seg[1]" LOC = "H12";	# segmento b
+NET "seg[2]" LOC = "N14";	# segmento c
+NET "seg[3]" LOC = "N11";	# segmento d
+NET "seg[4]" LOC = "P12";	# segmento e
+NET "seg[5]" LOC = "L13";	# segmento f
+NET "seg[6]" LOC = "M12";	# segmento g
+NET "dp" LOC = "N13";	# punto decimal "dp"
+
+
+NET "clk" LOC = "B8"; # Bank = 0, Signal name = MCLK reloj interno
+NET "reset" LOC = "A7";	#bt3, el de la izquierda.
+NET "stay" LOC = "M4";	#bt2
+
+# Pin assignment for SWs 
+# Abajo = 0 Arriba =1
+NET "sw[0]" LOC ="P11";	# sw0, el de la derecha
+NET "sw[1]" LOC ="L3";	# sw1
+NET "sw[2]" LOC ="K3";	# sw2
+
+# Pin assignment for LEDs. 
+# Para encenderlo requiere un 1
+NET "bst[0]" LOC ="M5";	 # L0, el de la derecha
+NET "bst[1]" LOC ="M11"; 	 # L1
+#NET "bst[2]" LOC ="P7";	 # L2
+
